@@ -11,7 +11,7 @@
 function calcularImc ($estatura, $peso) {
 
     if($estatura == 0) {
-        throw new Exception('Error by Ruber');
+        throw new Exception('Error división!');
     }
 
     $resultado = round($peso / ($estatura * $estatura),2);
